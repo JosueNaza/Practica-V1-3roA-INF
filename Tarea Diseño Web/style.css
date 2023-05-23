@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(5, 7, 12, 0.2)),
+    url("img/ucambridge.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    background-color: rgb(68, 135, 57);
+    color: white;
+    padding: 20px;
+}
+h2{
+    background-position: center;
+    color: white;
+}
+li{
+    color: white;
+}
+p{
+    color: white;
+}
+span{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 5px;
+}
+nav ul{
+    background-color: #034303;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color:  rgb(68, 135, 57);
+}
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+.secciones{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.menu-secundario{
+    width: 10%;
+    margin-top: 0px;
+    
+}
+.menu-secundario{
+    display: block;
+    color: black;
+    margin: 1rem;
+    background-position: center;
+    
+}
+footer{
+    width: 100%;
+    position: absolute;
+    padding: 2rem 8%;
+    background-color: rgb(68, 135, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.social-icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 80px;
+    border: 1px solid white;
+    background-image: url("img/puce1.png");
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: rgb(255, 255, 255);
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url("img/salesiana.png");
+}
+.social-icon:nth-of-type(3){
+    background-image: url("img/guayaquil.png");
+}
+.social-icon:nth-of-type(4){
+    background-image: url("img/machala.png");
+}
+label{
+    background-color: white;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="Nazareno Josué">
+    <meta name="description" content="Práctica general de direcciones, tablas, formularios y multimedias">
+    <meta name="keywords" content="programacion, html, php, etiquetas, tablas">
+    <title>Universidad</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Formulario para Opiniones</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="universidades/carreras.html">Carreras</a></li>
+            <li><a href="universidades/docentes.html">Docentes</a></li>
+            <li><a href="contacto.html">Conctacto</a></li>
+        </ul>
+        <br>
+    </nav>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+    
+        <label for="universidad">Universidad:</label>
+        <input type="text" id="universidad" name="universidad" required><br><br>
+    
+        <label for="carrera">Carrera:</label>
+        <input type="text" id="carrera" name="carrera" required><br><br>
+    
+        <label for="opinion">Opinión:</label>
+        <textarea id="opinion" name="opinion" required></textarea><br><br>
+    
+        <label for="recomendacion">¿Recomendarías esta universidad y carrera?</label>
+        <input type="radio" id="si" name="recomendacion" value="Sí" required>
+        <label for="si">Sí</label>
+        <input type="radio" id="no" name="recomendacion" value="No" required>
+        <label for="no">No</label><br><br>
+    
+        <input type="submit" value="Enviar">
+      </form>
+        <br>
+        <br>
+    </div>
+    <h1>Información adicional</h1>
+    <nav>
+        <ul>
+            <li><a>Videos</a></li>
+        </ul>
+    </nav>
+    <div class="menu-secundario">
+        <video src="videos/video1.mp4" controls width="350px" height="350px" controls></video>
+        <video src="videos/video2.mp4" controls width="350px" height="350px" controls></video>
+        <video src="videos/video3.mp4" controls width="350px" height="350px" controls></video>
+        <video src="videos/video4.mp4" controls width="350px" height="350px" controls></video>
+    </div>
+    <footer>
+        <h2>Redes Sociales</h2>
+        <div class="social-icons-container">
+            <a href="https://www.puce.edu.ec/" class="social-icon"></a>
+            <a href="https://www.ups.edu.ec/" class="social-icon"></a>
+            <a href="https://www.ug.edu.ec/" class="social-icon"></a>
+            <a href="https://utmachala.edu.ec/matricula/" class="social-icon"></a>
+        </div>
+        <div style="text-align: center;">
+            <span class="copyright">&copy;2023, Universidades del Ecuador. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+</body>
+</html>
